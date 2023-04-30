@@ -1,0 +1,20 @@
+#overlay {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    margin-top: 500px;
+    margin-left: 550px;
+    width: 30%;
+    height: 30%;
+    
+  }
+  
+  #popup {
+    display: block;
+    margin: auto;
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+  }

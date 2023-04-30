@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Now</title>
+    <link rel="icon"  href="./assets/images/favicon_image.jpg">
+
+    <style>
+        #popup{
+            margin-left: 125px;
+            margin-top: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- <button onclick="showImage()">Click me</button> -->
+
+<div id="overlay">
+  <img id="popup" src="./assets/images/payment.jpeg" alt="Payment QR">
+</div>
+    
+</body>
+
+<script>
+        function showImage() {
+    var overlay = document.getElementById('overlay');
+    var popup = document.getElementById('popup');
+    overlay.style.display = 'block';
+    popup.src = './assets/images/payment.jpeg';
+    }
+
+    function hideImage() {
+    var overlay = document.getElementById('overlay');
+    overlay.style.display = 'none';
+    }
+
+</script>
+
+</html>
